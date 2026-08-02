@@ -1,8 +1,26 @@
 aid: thredup
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/thredup.png
 name: ThredUp
-description: 'ThredUp is a company surfaced as a portfolio company of redpoint-ventures, trinity-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: ecommerce. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: >-
+  ThredUp (NASDAQ: TDUP) is one of the world's largest online resale and consignment
+  platforms for secondhand women's and kids' clothing, shoes, and accessories. Founded
+  in 2009 and headquartered in Oakland, CA, it lets consumers buy and sell pre-owned
+  fashion via mailed Clean Out Kits, and powers branded recommerce for 60+ retailers
+  through its Resale-as-a-Service (RaaS) platform. ThredUp does not publish a public
+  developer API or OpenAPI; RaaS integrations are arranged through its partner sales
+  team, so this API Evangelist profile captures the company's public web, engineering,
+  and policy surface rather than a documented API program.
 url: https://raw.githubusercontent.com/api-evangelist/thredup/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Ecommerce
+- Resale
+- Secondhand
+- Fashion
+- Consignment
+- Sustainability
+- Retail
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +50,24 @@ maintainers:
 common:
 - type: Website
   url: http://www.thredup.com/
+- type: HelpCenter
+  url: https://www.thredup.com/help
+- type: TermsOfService
+  url: https://www.thredup.com/help/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.thredup.com/help/privacy-policy
+- type: Blog
+  url: https://labs.thredup.com/
+- type: GitHubOrganization
+  url: https://github.com/thredup
+- type: Partners
+  url: https://www.raas.thredup.com/
+- type: LLMsTxt
+  url: llms/thredup-llms.txt
+- type: DomainSecurity
+  url: security/thredup-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
